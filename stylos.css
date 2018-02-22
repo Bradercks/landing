@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Releway');
+@import url('https://fonts.googleapis.com/css?familyOswald');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(http://www.caribpress.com/wp-content/uploads/2017/03/Travel-site.jpg)no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content{
+ max-width: none;
+ margin: 0 auto;
+    text-align: center;
+}
+.content h1 {
+    font-family: 'Releway' sans-serif;
+    color: #f9f3f4;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 100px;
+}
+.btn {
+    border-radius: 9px;
+    font-family: 'Oswald' sans-serif;
+    color: #036A81;
+    font-size: 135%;
+    padding: 10px 20px;
+    border: solid #036A81 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn:hover {
+    color: #fff;
+    border: solid #fff 3px;
+}
+p{
+    font-size: 160%;
+    line-height: 210%;
+    text-align: justify;
+    margin: 3%;
+    font-family: sans-serif;
+}
+@media screen and (max-width:769px) {
+    .content h1{
+        font-size: 250%;
+    }
+    .btn {
+        font-size: 110;
+        padding: 7px 15px;
+    }
+    p{
+        font-size: 100%;
+        line-height: 160%;
+        text-align: center;
+    }
+}
+.col1{
+    background-color:Gray;
+   float: left;
+}
+.col1{
+    float: left;
+    top:100px;
+    left: 200px;
+}
+.footer-info{
+    padding-top: 15px;
+    background-color: cadetblue;
+}
+.footer-info{
+    background: #fff;
+    min-height: 300px;
+}
+h3{
+    text-align: center;
+}
+.footer-title h3{
+    font-size: 1.8em;
+    font-family: inherit;
+}
+.icon-airplane{
+    float: right;
+    width: 250px;
+    
+}
+.container1{
+    display: ;
+    float: center;
+    padding: 250px;
+    margin: 270px;
+    background-color: antiquewhite;
+}
+
+.parrafo{
+    background-color:#fff;
+    border: 3px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 15px 30px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 5px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: center;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 1px;
+}
+.formulario{
+    text-align: center;
+}
+label{
+    font-family: sans-serif;
+    font-size: 26px;
+    font-style: oblique;
+    
+}
